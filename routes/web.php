@@ -40,6 +40,7 @@ Route::post('/edit-attendance','Backend\DashboardController@edit_attendance');
 
 
 //admin/manage-estate
+//admin/manage-estate
 
 Route::get('admin/manage-estate','Backend\EstateController@manage');
 
